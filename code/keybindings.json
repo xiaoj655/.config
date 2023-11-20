@@ -1,0 +1,354 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "h",
+    "command": "editor.action.scrollLeftHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "j",
+    "command": "editor.action.scrollDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "k",
+    "command": "editor.action.scrollUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "l",
+    "command": "editor.action.scrollRightHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.action.escapeFocusHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "escape",
+    "command": "-editor.action.escapeFocusHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.action.cancelSelectionAnchor",
+    "when": "editorTextFocus && selectionAnchorSet"
+  },
+  {
+    "key": "escape",
+    "command": "-editor.action.cancelSelectionAnchor",
+    "when": "editorTextFocus && selectionAnchorSet"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.debug.action.closeExceptionWidget",
+    "when": "exceptionWidgetVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-editor.debug.action.closeExceptionWidget",
+    "when": "exceptionWidgetVisible"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.action.hideColorPicker",
+    "when": "standaloneColorPickerVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-editor.action.hideColorPicker",
+    "when": "standaloneColorPickerVisible"
+  },
+  {
+    "key": "capslock",
+    "command": "editor.action.inlineSuggest.hide",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-editor.action.inlineSuggest.hide",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "backspace",
+    "command": "search.action.focusQueryEditorWidget",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "escape",
+    "command": "-search.action.focusQueryEditorWidget",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "capslock",
+    "command": "settings.action.focusLevelUp",
+    "when": "inSettingsEditor && !inSettingsJSONEditor && !inSettingsSearch"
+  },
+  {
+    "key": "escape",
+    "command": "-settings.action.focusLevelUp",
+    "when": "inSettingsEditor && !inSettingsJSONEditor && !inSettingsSearch"
+  },
+  {
+    "key": "capslock",
+    "command": "settings.action.clearSearchResults",
+    "when": "inSettingsEditor && inSettingsSearch"
+  },
+  {
+    "key": "escape",
+    "command": "-settings.action.clearSearchResults",
+    "when": "inSettingsEditor && inSettingsSearch"
+  },
+  {
+    "key": "capslock",
+    "command": "notifications.hideList",
+    "when": "notificationCenterVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-notifications.hideList",
+    "when": "notificationCenterVisible"
+  },
+  {
+    "key": "capslock",
+    "command": "search.action.cancel",
+    "when": "listFocus && searchViewletVisible && !inputFocus && searchState != '0'"
+  },
+  {
+    "key": "escape",
+    "command": "-search.action.cancel",
+    "when": "listFocus && searchViewletVisible && !inputFocus && searchState != '0'"
+  },
+  {
+    "key": "capslock",
+    "command": "notebook.cell.quitEdit",
+    "when": "inputFocus && notebookEditorFocused && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-notebook.cell.quitEdit",
+    "when": "inputFocus && notebookEditorFocused && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible"
+  },
+  {
+    "key": "capslock",
+    "command": "notebook.cell.quitEdit",
+    "when": "notebookEditorFocused && notebookOutputFocused"
+  },
+  {
+    "key": "escape",
+    "command": "-notebook.cell.quitEdit",
+    "when": "notebookEditorFocused && notebookOutputFocused"
+  },
+  {
+    "key": "capslock",
+    "command": "inlayHints.stopReadingLineWithHint",
+    "when": "isReadingLineWithInlayHints"
+  },
+  {
+    "key": "escape",
+    "command": "-inlayHints.stopReadingLineWithHint",
+    "when": "isReadingLineWithInlayHints"
+  },
+  {
+    "key": "capslock",
+    "command": "welcome.goBack",
+    "when": "inWelcome && activeEditor == 'gettingStartedPage'"
+  },
+  {
+    "key": "escape",
+    "command": "-welcome.goBack",
+    "when": "inWelcome && activeEditor == 'gettingStartedPage'"
+  },
+  {
+    "key": "capslock",
+    "command": "breadcrumbs.selectEditor",
+    "when": "breadcrumbsActive && breadcrumbsVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-breadcrumbs.selectEditor",
+    "when": "breadcrumbsActive && breadcrumbsVisible"
+  },
+  {
+    "key": "capslock",
+    "command": "cancelLinkedEditingInput",
+    "when": "LinkedEditingInputVisible && editorTextFocus"
+  },
+  {
+    "key": "escape",
+    "command": "-cancelLinkedEditingInput",
+    "when": "LinkedEditingInputVisible && editorTextFocus"
+  },
+  {
+    "key": "capslock",
+    "command": "workbench.action.terminal.clearSelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-workbench.action.terminal.clearSelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+  },
+  {
+    "key": "ctrl+meta+;",
+    "command": "macros.commentDown"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "macros.end_colon"
+  },
+  {
+    "key": "ctrl+alt+[",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<tag>$TM_SELECTED_TEXT</tag>"
+    }
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "macros.add_strong"
+  },
+  {
+    "key": "ctrl+r b",
+    "command": "-vscode-neovim.send-cmdline",
+    "when": "neovim.mode == 'cmdline'"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-vscode-neovim.ctrl-b",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send-cmdline",
+    "when": "neovim.mode == 'cmdline'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.mode == 'insert'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.terminal.killEditor",
+    "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
+  },
+  {
+    "key": "alt+k",
+    "command": "-keybindings.editor.recordSearchKeys",
+    "when": "inKeybindings && inKeybindingsSearch"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+w ctrl+w",
+    "command": "-workbench.action.focusFirstEditorGroup",
+    "when": "!editorTextFocus && !filesExplorerFocus && !inSearchEditor && !replaceInputBoxFocus && !searchViewletFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+shift+z",
+    "command": "workbench.action.minimizeOtherEditors"
+  },
+  {
+    "key": "ctrl+k ctrl+6",
+    "command": "-editor.foldLevel6",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "ctrl+r 6",
+    "command": "-vscode-neovim.send-cmdline",
+    "when": "neovim.mode == 'cmdline'"
+  },
+  {
+    "key": "ctrl+shift+6",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+6",
+    "command": "extension.translate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-extension.translate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.mode == 'insert'"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFile",
+    "when": "true"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFileFolder",
+    "when": "isMacNative && openFolderWorkspaceSupport"
+  }
+]

@@ -1,0 +1,228 @@
+{
+  "editor.mouseWheelZoom": true,
+  "git.enableSmartCommit": true,
+  "cmake.configureOnOpen": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName"
+  },
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "cpp": false,
+    "java": false,
+    "javascript": true
+  },
+  "workbench.tree.indent": 20,
+  "codesnap.containerPadding": "1em",
+  "workbench.editor.enablePreview": false,
+  "editor.fontFamily": "'Intel One Mono',AdobeCodePro, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "IntelOne Mono",
+  "debug.console.fontFamily": "IntelOne Mono",
+  "markdown.preview.fontSize": 16,
+  "editor.inlayHints.enabled": "off",
+  "redhat.telemetry.enabled": true,
+  "keyboard.dispatch": "keyCode",
+  "macros": {},
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 17,
+  "chat.editor.fontSize": 16,
+  "vim.foldfix": true,
+  "vscode-neovim.highlightGroups.highlights": {
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground",
+      "borderColor": "theme.editor.findMatchBorder"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground",
+      "borderColor": "theme.editor.findMatchHighlightBorder"
+    },
+    "Visual": {
+      "backgroundColor": "theme.editor.selectionBackground"
+    }
+  },
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/Brook/.config/nvim/init.vim",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorStyle": "block",
+  "editor.lineNumbers": "relative",
+  "update.mode": "none",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "[java]": {
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "terminal.integrated.inheritEnv": false,
+  "background.fullscreen": {
+
+
+
+    "images": ["file:///home/Brook/Pictures/aa.jpeg"],
+    "opacity": "0.99",
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  "window.autoDetectColorScheme": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Chinese (Simplified)",
+  "editor.fontVariations": false,
+  "workbench.colorTheme": "GitHub Light Default",
+  "background.style": {
+
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "width": "100%",
+    "height": "100%",
+    "background-position": "100% 100%",
+    "background-repeat": "no-repeat",
+    "opacity": 1
+  },
+  "editor.wordWrapColumn": 60,
+  "html.format.wrapLineLength": 80,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "volar.format.initialIndent": {
+    // "html": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "t"],
+      "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "p", "t"],
+      "commands": ["editor.action.peekTypeDefinition"]
+    },
+  ],
+  "vim.vimrc.path": "~/.vimrc",
+  "workbench.settings.applyToAllProfiles": [],
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.vimrc.enable": true,
+  "editor.foldingHighlight": false,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "underline",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.smartRelativeLine": true,
+  "editor.cursorSurroundingLines": 10,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.fontLigatures": false,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "prettier.tabWidth": 4,
+  "vite.autoStart": false,
+  "C_Cpp.clang_format_fallbackStyle": "Chromium",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
