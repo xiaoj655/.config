@@ -129,7 +129,7 @@
     "window.autoDetectColorScheme": true,
     "vscodeGoogleTranslate.preferredLanguage": "Chinese (Simplified)",
     "editor.fontVariations": false,
-    "workbench.colorTheme": "GitHub Light Default",
+    "workbench.colorTheme": "GitHub Light High Contrast",
     "background.style": {
         "content": "''",
         "pointer-events": "none",
@@ -193,7 +193,7 @@
     "vim.vimrc.path": "~/.vimrc",
     "vim.highlightedyank.enable": true,
     "vim.highlightedyank.color": "#a9dc7660",
-    "vim.highlightedyank.duration": 250,
+    "vim.highlightedyank.duration": 350,
     "workbench.settings.applyToAllProfiles": [],
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard": true,
